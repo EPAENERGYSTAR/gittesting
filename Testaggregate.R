@@ -18,4 +18,4 @@ sum(df3$newct)
 
 df4 <- df %>% group_by(cut,clarity) %>% summarize(newct = n())
 
-df5 <- spread(df4,cut,newct)
+df5 <- spread(df4,cut,newct) 
